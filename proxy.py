@@ -1,4 +1,4 @@
-# SamTheDog_'s Proxy Server
+# SamTheDog0's Proxy Server
 
 import socket
 import threading
