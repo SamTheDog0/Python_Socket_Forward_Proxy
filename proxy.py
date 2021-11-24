@@ -17,9 +17,6 @@ class Proxy:
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.sock.bind(("0.0.0.0", self.port))
 
-        # Run
-        self.run()
-
     def run(self):
         """ Accepts connections and spawns threads to handle them"""
         self.sock.listen()
